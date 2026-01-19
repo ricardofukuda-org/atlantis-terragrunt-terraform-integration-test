@@ -1,0 +1,5 @@
+version: 3
+autodiscover: # Available since v0.18.0
+  mode: auto
+  ignore_paths:
+  - terraform/modules/

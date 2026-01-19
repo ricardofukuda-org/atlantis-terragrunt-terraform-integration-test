@@ -1,0 +1,2 @@
+aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 127923327338.dkr.ecr.us-east-1.amazonaws.com
+sudo docker buildx build --tag 127923327338.dkr.ecr.us-east-1.amazonaws.com/fukuda-atlantis:latest . && sudo docker push 127923327338.dkr.ecr.us-east-1.amazonaws.com/fukuda-atlantis:latest
