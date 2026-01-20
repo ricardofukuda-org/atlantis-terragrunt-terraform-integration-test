@@ -1,2 +1,4 @@
-aws ecr get-login-password --region us-east-1 | sudo docker login --username AWS --password-stdin 127923327338.dkr.ecr.us-east-1.amazonaws.com
-sudo docker buildx build --tag 127923327338.dkr.ecr.us-east-1.amazonaws.com/fukuda-atlantis:latest . && sudo docker push 127923327338.dkr.ecr.us-east-1.amazonaws.com/fukuda-atlantis:latest
+# About
+
+Basic repository to test Atlantis/terraform/terragrunt integration on kubernetes.
+Atlantis allows to centralize and automate terraform plan/apply flow using GitHub Pull Requests feature.
